@@ -1,0 +1,16 @@
+.menu {
+    display: inline-block;
+    justify-content: space-between;
+    display: flex;   
+    width: 1140px;
+    margin:  0 auto;
+    list-style-type: none;
+    background: #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Link:global(.active) {
+    color: red;
+}
